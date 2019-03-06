@@ -229,13 +229,27 @@
 			\end{enumerate}
 		\textbf{Variant:}\newline	
 			\hspace*{5mm}4a. If IBAN is incorrect, banks asks the user to enter it again.\newline
-			\hspace*{5mm}5a. If the amount transferred is less than the user's current balance, the ATM asks the user to enter another amount.\newline
+			\hspace*{5mm}5a. If the amount transferred is less than the user's current balance, the ATM shows an error message.\newline
 			\hspace*{5mm}*. The user may cancel the session; the ATM ejects the card.
 
 		\newpage\subsubsection{Sequence Diagrams}
-		\subsubsection{Collaboration Diagram}	
-		\subsubsection{Activity Diagram}
-		\subsubsection{Flow Chart}
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/transfer_sequence.png}
+		\end{figure}
+
+		\newpage\subsubsection{Collaboration Diagram}	
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/transfer_collaboration.png}
+		\end{figure}
+
+		\newpage\subsubsection{Activity Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/transfer_activity.png}
+			\end{center}
+		\end{figure}
+
+		\newpage\subsubsection{Flow Chart}
 
 	\newpage\subsection{For The Whole System}
 	\subsubsection{Context Diagram}	
