@@ -91,9 +91,14 @@
 				\texttt{436006939} &
 				Withdraw
 				\\
+			\hline
+				\RL{شهد} &
+				\texttt{436006939} &
+				validate
+				\\
 				\hline
 				\RL{عبير عزت} &
-				\texttt{437004875} &
+				\texttt{436200058} &
 				Deposit
 				\\
 			\hline
@@ -129,21 +134,6 @@
 		\item The user shall be able to withdraw money.
 		\item The user shall be able to deposit money.
 		\item The user shall be able to transfer money to another account.
-		
-		\begin{enumerate}[label*=\arabic*.]
-			\item User enters card.
-			\item ATM asks for PIN code.
-			\item User enters PIN code.
-			\item ATM validates PIN code.
-			\item If PIN code is correct, ATM retrieves user account from bank.
-			\item ATM shows menu.
-			\item user chooses "transfer money".
-			\item ATM asks user to enter receiver's IBAN.
-			\item If IBAN is correct, ATM asks for the amount transferred.
-			\item If the amount is available in the user's account, money is transferred to receiver's account.
-			\item User quits.
-			\item ATM ejects the card.
-		\end{enumerate}
 	\end{enumerate}
 
 	\subsection{Non-functional Requirements}
@@ -152,8 +142,8 @@
 		\item The system must be available 24H.
 	\end{enumerate}
 
-	\subsection{Functional Requirements Description}
-
+	\newpage\subsection{Functional Requirements Description}
+	\setcounter{magicrownumbers}{0}
 	\def\arraystretch{2}
 	\begin{table}[h!]
 		\begin{center}
@@ -191,8 +181,9 @@
 		\end{center}
 	\end{table}
 
-	\subsection{Non-functional Requirements Description}
-		\def\arraystretch{2}
+	\newpage\subsection{Non-functional Requirements Description}
+	\setcounter{magicrownumbers}{0}
+	\def\arraystretch{2}
 	\begin{table}[h!]
 		\begin{center}
 			\begin{tabularx}{\textwidth}{r|X|X}
@@ -216,17 +207,46 @@
 	\end{table}
 
 	\section{Design}
-	\subsection{Use-case Diagram}	
-	\subsection{Sequence Diagrams}
-	\subsection{Collaboration Diagram}	
-	\subsection{Activity Diagram}
+	\newpage\subsection{Validate User}
+	\newpage\subsection{Retrieve Account Information}
+	\newpage\subsection{Withdraw Money}
+	\newpage\subsection{Deposit Money}
+	\newpage\subsection{Transfer}
+		\subsubsection{Use Case Diagram}
+		\textbf{Use Case Name:}	transfer money to another account.
+		\newline\textbf{Goal:} to transfer money.
+		\newline\textbf{Actors:} user, receiver, ATM, Bank 	
+		\newline\textbf{Precondition:} user is validated 	
+		\newline\textbf{Primary Scenario:}	
+			\begin{enumerate}[label*=\arabic*.]
+				\item ATM shows menu.
+				\item user chooses "transfer money".
+				\item ATM asks user to enter receiver's IBAN.
+				\item If IBAN is correct, ATM asks for the amount transferred.
+				\item If the amount is available in the user's account, money is transferred to receiver's account.
+				\item User quits.
+				\item ATM ejects the card.
+			\end{enumerate}
+		\textbf{Variant:}\newline	
+			\hspace*{5mm}4a. If IBAN is incorrect, banks asks the user to enter it again.\newline
+			\hspace*{5mm}5a. If the amount transferred is less than the user's current balance, the ATM asks the user to enter another amount.\newline
+			\hspace*{5mm}*. The user may cancel the session; the ATM ejects the card.
 
-	\subsection{Class Diagram}	
-	\subsection{Component diagram}
-	\subsection{Deployment diagram}	
-	\subsection{State Chart Diagram}
-	\subsection{Data flow Diagram}
-	\subsection{Architectural patterns}
+		\newpage\subsubsection{Sequence Diagrams}
+		\subsubsection{Collaboration Diagram}	
+		\subsubsection{Activity Diagram}
+		\subsubsection{Flow Chart}
+
+	\newpage\subsection{For The Whole System}
+	\subsubsection{Context Diagram}	
+	\subsubsection{Use-case Diagram}
+	\subsubsection{Component diagram}
+	\subsubsection{Deployment diagram}
+	\subsubsection{Data flow Diagram}		
+	\subsubsection{Class Diagram}
+	\subsubsection{Object Diagram}		
+	\subsubsection{State Chart Diagram}
+	\subsubsection{Architectural patterns}
 
 
 	\newpage

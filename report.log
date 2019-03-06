@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.30)  6 MAR 2019 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.30)  6 MAR 2019 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -460,21 +460,22 @@ ination with the same identifier (name{page.}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.109 	\newpage
+l.114 	\newpage
                 [2] (./report.toc)
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
- [1] [2] [3] [4] (./report.bbl
+ [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+[11] (./report.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
 
 
  *File List*
@@ -574,19 +575,19 @@ epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
   report.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: DECECF5EECA3FB7584F6B3E61167E3C3;1487.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+(rerunfilecheck)             Checksum: FF05DEF4802404E12875EFFDEE45FD20;1210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 10763 strings out of 494914
- 150745 string characters out of 6180441
- 385182 words of memory out of 5000000
- 13868 multiletter control sequences out of 15000+600000
+ 10770 strings out of 494914
+ 150896 string characters out of 6180441
+ 384182 words of memory out of 5000000
+ 13863 multiletter control sequences out of 15000+600000
  9212 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,11n,40p,271b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,40p,271b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
@@ -595,10 +596,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/arabtex/xnsh14.pfb>
-Output written on report.pdf (7 pages, 105088 bytes).
+Output written on report.pdf (14 pages, 111457 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
