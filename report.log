@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.30)  6 MAR 2019 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.30)  6 MAR 2019 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,34 +466,41 @@ l.114 	\newpage
 \openout6 = `report.toc'.
 
  [1] [2] [3] [4] [5] [6] [7] [8] [9]
-<img/transfer_sequence.png, id=170, 918.43124pt x 645.41125pt>
+<img/transfer_usecase.png, id=170, 725.71124pt x 534.99875pt>
+File: img/transfer_usecase.png Graphic file (type png)
+<use img/transfer_usecase.png>
+Package pdftex.def Info: img/transfer_usecase.png  used on input line 237.
+(pdftex.def)             Requested size: 430.00462pt x 317.00981pt.
+ [10 <./img/transfer_usecase.png>]
+<img/transfer_sequence.png, id=179, 918.43124pt x 645.41125pt>
 File: img/transfer_sequence.png Graphic file (type png)
 <use img/transfer_sequence.png>
-Package pdftex.def Info: img/transfer_sequence.png  used on input line 237.
+Package pdftex.def Info: img/transfer_sequence.png  used on input line 242.
 (pdftex.def)             Requested size: 430.00462pt x 302.18124pt.
- [10 <./img/transfer_sequence.png>]
-<img/transfer_collaboration.png, id=179, 715.67375pt x 457.71pt>
+ [11 <./img/transfer_sequence.png>]
+<img/transfer_collaboration.png, id=188, 715.67375pt x 457.71pt>
 File: img/transfer_collaboration.png Graphic file (type png)
 <use img/transfer_collaboration.png>
-Package pdftex.def Info: img/transfer_collaboration.png  used on input line 242
+Package pdftex.def Info: img/transfer_collaboration.png  used on input line 247
 .
 (pdftex.def)             Requested size: 430.00462pt x 275.01225pt.
- [11 <./img/transfer_collaboration.png>]
-<img/transfer_activity.png, id=188, 444.66125pt x 665.48625pt>
+ [12 <./img/transfer_collaboration.png>]
+<img/transfer_activity.png, id=196, 444.66125pt x 665.48625pt>
 File: img/transfer_activity.png Graphic file (type png)
 <use img/transfer_activity.png>
-Package pdftex.def Info: img/transfer_activity.png  used on input line 248.
+Package pdftex.def Info: img/transfer_activity.png  used on input line 253.
 (pdftex.def)             Requested size: 287.32335pt x 430.00462pt.
- [12 <./img/transfer_activity.png>] [13] [14] (./report.bbl
+ [13 <./img/transfer_activity.png>] [14] [15]
+(./report.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
 
 
  *File List*
@@ -590,22 +597,23 @@ epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
 epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
   apatch.sty    2006/07/02  3.11s last minute patches 
    Uxnsh.fd
+img/transfer_usecase.png
 img/transfer_sequence.png
 img/transfer_collaboration.png
 img/transfer_activity.png
   report.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: FF05DEF4802404E12875EFFDEE45FD20;1210.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
- 10797 strings out of 494914
- 151516 string characters out of 6180441
+ 10806 strings out of 494914
+ 151717 string characters out of 6180441
  384182 words of memory out of 5000000
- 13879 multiletter control sequences out of 15000+600000
+ 13884 multiletter control sequences out of 15000+600000
  9212 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,11n,40p,271b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -617,10 +625,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/arabtex/xnsh14.pfb>
-Output written on report.pdf (17 pages, 175132 bytes).
+Output written on report.pdf (18 pages, 197843 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

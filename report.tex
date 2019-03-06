@@ -59,7 +59,7 @@
 	\\\texttt{436006939}
 	\\[3ex]
 	\RL{عبير عزت} 
-	\\\texttt{000000000}
+	\\\texttt{436200058}
 	\\[3ex]
 	\RL{لمياء القحطاني} 
 	\\\texttt{437004164}
@@ -212,7 +212,7 @@
 	\newpage\subsection{Withdraw Money}
 	\newpage\subsection{Deposit Money}
 	\newpage\subsection{Transfer}
-		\subsubsection{Use Case Diagram}
+		\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	transfer money to another account.
 		\newline\textbf{Goal:} to transfer money.
 		\newline\textbf{Actors:} user, receiver, ATM, Bank 	
@@ -231,6 +231,11 @@
 			\hspace*{5mm}4a. If IBAN is incorrect, banks asks the user to enter it again.\newline
 			\hspace*{5mm}5a. If the amount transferred is less than the user's current balance, the ATM shows an error message.\newline
 			\hspace*{5mm}*. The user may cancel the session; the ATM ejects the card.
+
+		\newpage\subsubsection{Use Case Diagram}
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/transfer_usecase.png}
+		\end{figure}
 
 		\newpage\subsubsection{Sequence Diagrams}
 		\begin{figure}[h!]
