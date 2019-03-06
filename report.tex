@@ -1,0 +1,218 @@
+\documentclass{article}
+\usepackage{setspace}
+\usepackage{arabtex}
+\usepackage{utf8} 
+\usepackage{hyperref} 
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+
+\lstset{frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+\setcounter{tocdepth}{2}
+\hypersetup{
+	colorlinks,
+	citecolor=[rgb]{0,0.5,0.5},
+	filecolor=[rgb]{0,0.5,0.5},
+	linkcolor=[rgb]{0,0.5,0.5},
+	urlcolor=[rgb]{0,0.5,0.5}
+}
+
+\date{}
+\title{
+	Bank Automated Teller Machines \\
+	\large Software Engineering (CS385T) Project }
+
+\author{
+	\setcode{utf8}
+	\RL{ريم علي الغامدي} 
+	\\\texttt{437004875}
+	\\[3ex]
+	\RL{سارة خالد آل حسين} 
+	\\\texttt{436006939}
+	\\[3ex]
+	\RL{عبير عزت} 
+	\\\texttt{000000000}
+	\\[3ex]
+	\RL{لمياء القحطاني} 
+	\\\texttt{437004164}
+}
+
+\begin{document}
+	
+	
+	\pagenumbering{gobble}
+	\maketitle
+	\newpage
+	\addcontentsline{toc}{section}{Member Roles}
+	
+	\def\arraystretch{2}
+	\begin{table}[h!]
+		\begin{center}
+			\caption{Member Roles}
+			\begin{tabularx}{\textwidth}{r|c|X}
+				\textbf{Name} & 
+				\textbf{ID} & 
+				\textbf{Responsibility}\\
+				\hline
+				\RL{ريم علي الغامدي} &
+				\texttt{437004875} &
+				Transfer
+				\\
+				\hline
+				\RL{سارة خالد آل حسين} &
+				\texttt{436006939} &
+				Withdraw
+				\\
+				\hline
+				\RL{عبير عزت} &
+				\texttt{437004875} &
+				Deposit
+				\\
+			\hline
+				\RL{لمياء القحطاني} &
+				\texttt{437004164} &
+				Retrieve
+				\\
+				
+			\end{tabularx}
+		\end{center}
+	\end{table}
+
+	\newpage
+	\pagenumbering{arabic}
+	\addcontentsline{toc}{section}{Table of Contents}\tableofcontents
+	\newpage	
+	\doublespacing
+	\newpage
+	
+	
+
+	\section{Introduction}
+	\subsection{Purpose}
+	\subsection{Scope}
+	\subsection{Generic Software Model}
+	\section{Requirement Specifications}
+	\subsection{Functional Requirements}
+
+
+	\begin{enumerate}[label*=\arabic*.]
+		\item The ATM shall validate the user.
+		\item The user shall be able to retrieve account information.	
+		\item The user shall be able to withdraw money.
+		\item The user shall be able to deposit money.
+		\item The user shall be able to transfer money to another account.
+		
+		\begin{enumerate}[label*=\arabic*.]
+			\item User enters card.
+			\item ATM asks for PIN code.
+			\item User enters PIN code.
+			\item ATM validates PIN code.
+			\item If PIN code is correct, ATM retrieves user account from bank.
+			\item ATM shows menu.
+			\item user chooses "transfer money".
+			\item ATM asks user to enter receiver's IBAN.
+			\item If IBAN is correct, ATM asks for the amount transferred.
+			\item If the amount is available in the user's account, money is transferred to receiver's account.
+			\item User quits.
+			\item ATM ejects the card.
+		\end{enumerate}
+	\end{enumerate}
+
+	\subsection{Non-functional Requirements}
+	\begin{enumerate}
+		\item The system must be secure.
+		\item The system must be available 24H.
+	\end{enumerate}
+
+	\subsection{Functional Requirements Description}
+
+	\def\arraystretch{2}
+	\begin{table}[h!]
+		\begin{center}
+			\begin{tabularx}{\textwidth}{r|X|X}
+				\textbf{ID} & 
+				\textbf{Requirement} & 
+				\textbf{Description}\\
+				\hline
+				\rownumber &
+				The ATM shall validate the user. &
+				ATM should ask for the user card and PIN code, then send these information to the bank to validate the user, if PIN is correct bank sends the user account to the ATM
+				\\
+				\hline
+
+				\rownumber &
+				The user shall be able to retrieve account information. &
+				After the user is validated, the user should be able to get account information. Including current balance, debt, number of cards activated, and the last transactions.
+				\\
+				\hline
+				\rownumber &
+				The user shall be able to withdraw money. &
+				After the user is validated, the user should be able to get withdraw money from account if withdrawn amount is less than the balance.
+				\\
+				\hline
+				\rownumber &
+				The user shall be able to deposit money. &
+				After the user is validated, the user should be able to deposit money into account if money is validated to be real and undamaged.
+				\\
+				\hline
+				\rownumber &
+				The user shall be able to transfer money to another account. &
+				After the user is validated, the user should be able to transfer money from account to any other account as long as IBAN entered is correct and amount transferred is less than the balance.
+				\\
+				
+				
+				
+			\end{tabularx}
+		\end{center}
+	\end{table}
+
+	\subsection{Non-functional Requirements Description}
+	
+	\section{Design}
+	\subsection{Use-case Diagram}	
+	\subsection{Sequence Diagrams}
+	\subsection{Collaboration Diagram}	
+	\subsection{Activity Diagram}
+
+	\subsection{Class Diagram}	
+	\subsection{Component diagram}
+	\subsection{Deployment diagram}	
+	\subsection{State Chart Diagram}
+	\subsection{Data flow Diagram}
+	\subsection{Architectural patterns}
+
+
+	\newpage
+	\addcontentsline{toc}{section}{References}
+	\bibliographystyle{ieeetr}
+	\bibliography{References}
+
+\end{document}
