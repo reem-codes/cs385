@@ -186,16 +186,35 @@
 				\rownumber &
 				The user shall be able to transfer money to another account. &
 				After the user is validated, the user should be able to transfer money from account to any other account as long as IBAN entered is correct and amount transferred is less than the balance.
-				\\
-				
-				
-				
+				\\	
 			\end{tabularx}
 		\end{center}
 	\end{table}
 
 	\subsection{Non-functional Requirements Description}
-	
+		\def\arraystretch{2}
+	\begin{table}[h!]
+		\begin{center}
+			\begin{tabularx}{\textwidth}{r|X|X}
+				\textbf{ID} & 
+				\textbf{Requirement} & 
+				\textbf{Description}\\
+				\hline
+				\rownumber &
+				The system must be secure. &
+				The system must be impossible to hack, connection must be secure and data must be encrypted and layered.
+				\\
+				\hline
+
+				\rownumber &
+				The system must be available 24H. &
+				The system must never fail or else the user or the bank might lose money.
+				\\
+			
+			\end{tabularx}
+		\end{center}
+	\end{table}
+
 	\section{Design}
 	\subsection{Use-case Diagram}	
 	\subsection{Sequence Diagrams}
