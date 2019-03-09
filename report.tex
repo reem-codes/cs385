@@ -121,8 +121,18 @@
 	
 
 	\section{Introduction}
+		The ATM (Automated Teller Machine) is a machine that helps clients access their money that’s in their bank accounts and do transactions on it. It does so when the client inserts a plastic ATM card with a verification PIN into this machine and the machine just retrieves the client’s account information from the bank itself. The clients can do multiple transactions on the money they own in the bank including allowing them to specifically to see the amount of money they have, add their cash into their accounts, transfer money to some other account, and take some cash out, all with the use of that card. The system can print a receipt at the end of each transaction if the user wishes.
 	\subsection{Purpose}
+		\begin{enumerate}
+			\item Making transactions easier for clients
+		    \item Making transactions more accessible to clients, since the ATMs are at remote locations closer to the client
+		    \item Saving time so that clients don’t have to have actual interactions with bank staff
+		    \item Reducing the number of staff that have to be at a branch (clients can do the transactions themselves)
+		    \item Allowing the clients to “carry around” their money with them in a safer way, without it being in cash form
+		\end{enumerate}
+  
 	\subsection{Scope}
+	The area that the system is concerned with is financial; it is monetary transactions that banks will allow clients to carry out on their own. This system shall help with the following transaction: deposit, withdraw, retrieving info and transfer. This system is not concerned with changing PIN, making new account or paying bills.
 	\subsection{Generic Software Model}
 	\section{Requirement Specifications}
 	\subsection{Functional Requirements}
@@ -206,11 +216,60 @@
 		\end{center}
 	\end{table}
 
-	\section{Design}
+	\newpage\section{Design}
 	\newpage\subsection{Validate User}
 	\newpage\subsection{Retrieve Account Information}
 	\newpage\subsection{Withdraw Money}
 	\newpage\subsection{Deposit Money}
+\subsubsection{Use Case Scenario}
+		\textbf{Use Case Name:}	Deposit money into account.
+		\newline\textbf{Goal:} To deposit money (cash notes) into account.
+		\newline\textbf{Actors:} user, ATM, Bank 	
+		\newline\textbf{Precondition:} user is validated 	
+		\newline\textbf{Primary Scenario:}	
+			\begin{enumerate}[label*=\arabic*.]
+				\item ATM screen displays menu.
+			    \item The user presses on “Deposit”.
+			    \item The machine displays a message to insert the notes into the allocated slot.
+			    \item The user inserts the notes.
+			    \item The machine verifies the notes.
+			    \item The system displays the new balance value and sends it to the bank.
+			    \item The bank adds the extra balance value to the old balance.
+			    \item The user quits the session.
+			    \item The ATM ejects the user’s card.
+			\end{enumerate}
+		\textbf{Variant:}\newline
+			\hspace*{5mm}5a. The notes are not verified or accepted; the ATM ejects them.\newline
+			\hspace*{5mm}*. The user might quit during any logical step; the ATM will eject the card.
+
+		\newpage\subsubsection{Use Case Diagram}
+			\begin{figure}[h!]
+			  \includegraphics[width=\linewidth]{img/deposit_usecase.png}
+			\end{figure}
+
+		\newpage\subsubsection{Sequence Diagrams}
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/deposit_sequence.png}
+		\end{figure}
+
+		\newpage\subsubsection{Collaboration Diagram}	
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/deposit_collaboration.png}
+		\end{figure}
+
+		\newpage\subsubsection{Activity Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/deposit_activity.png}
+			\end{center}
+		\end{figure}
+
+		\newpage\subsubsection{Flow Chart}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/deposit_flowchart.png}
+			\end{center}
+		\end{figure}
 	\newpage\subsection{Transfer}
 		\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	transfer money to another account.
@@ -233,9 +292,9 @@
 			\hspace*{5mm}*. The user may cancel the session; the ATM ejects the card.
 
 		\newpage\subsubsection{Use Case Diagram}
-		\begin{figure}[h!]
-		  \includegraphics[width=\linewidth]{img/transfer_usecase.png}
-		\end{figure}
+			\begin{figure}[h!]
+			  \includegraphics[width=\linewidth]{img/transfer_usecase.png}
+			\end{figure}
 
 		\newpage\subsubsection{Sequence Diagrams}
 		\begin{figure}[h!]
