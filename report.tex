@@ -58,6 +58,9 @@
 	\RL{سارة خالد آل حسين} 
 	\\\texttt{436006939}
 	\\[3ex]
+	\RL{شهد الكناني} 
+	\\\texttt{437004165}
+	\\[3ex]
 	\RL{عبير عزت} 
 	\\\texttt{436200058}
 	\\[3ex]
@@ -92,8 +95,8 @@
 				Withdraw
 				\\
 			\hline
-				\RL{شهد} &
-				\texttt{436006939} &
+				\RL{شهد الكناني} &
+				\texttt{437004165} &
 				validate
 				\\
 				\hline
@@ -121,7 +124,7 @@
 	
 
 	\section{Introduction}
-		The ATM (Automated Teller Machine) is a machine that helps clients access their money that’s in their bank accounts and do transactions on it. It does so when the client inserts a plastic ATM card with a verification PIN into this machine and the machine just retrieves the client’s account information from the bank itself. The clients can do multiple transactions on the money they own in the bank including allowing them to specifically to see the amount of money they have, add their cash into their accounts, transfer money to some other account, and take some cash out, all with the use of that card. The system can print a receipt at the end of each transaction if the user wishes.
+		The ATM (Automated Teller Machine) is a machine that helps clients access their money that’s in their bank accounts and do transactions on it. It does so when the client inserts a plastic ATM card with a verification PIN into this machine and the machine just retrieves the client’s account information from the bank itself. The clients can do multiple transactions on the money they own in the bank including allowing them to specifically to see the amount of money they have, add their cash into their accounts, transfer money to some other account, and take some cash out, all with the use of that card. The system can print a receipt at the end of each transaction if the user wishes\cite{atm}.
 	\subsection{Purpose}
 		\begin{enumerate}
 			\item Making transactions easier for clients
@@ -134,6 +137,7 @@
 	\subsection{Scope}
 	The area that the system is concerned with is financial; it is monetary transactions that banks will allow clients to carry out on their own. This system shall help with the following transaction: deposit, withdraw, retrieving info and transfer. This system is not concerned with changing PIN, making new account or paying bills.
 	\subsection{Generic Software Model}
+	The model we are going to use to develop the ATM system is the waterfall model. It is the most suitable one because the requirements of the system were very clear from the beginning (allowing remote monetary transactions that included balance inquiry, money deposit, money transfer, and money withdrawal) and are not going to change or increase with time, and because we can finish from one phase and start the other without them overlapping them; i.e. we can finish collecting and verifying all the required functionalities, then designing each of them separately and finishing from all their design process, then implementing their designs as codes, integrating them, and finally deploying them \cite{waterfall}.
 	\section{Requirement Specifications}
 	\subsection{Functional Requirements}
 
@@ -335,5 +339,6 @@
 	\addcontentsline{toc}{section}{References}
 	\bibliographystyle{ieeetr}
 	\bibliography{References}
+
 
 \end{document}

@@ -1,3 +1,14 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{atm}
+``An example of object-oriented design: An atm simulation.''
+  \url{http://www.math-cs.gordon.edu/courses/cs211/ATMExample/UseCases.html},
+  Dec 2004.
+\newblock Accessed on 2019-03-09.
+
+\bibitem{waterfall}
+``Sdlc waterfall model.''
+  \url{https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm}, Mar 2019.
+\newblock Accessed on 2019-03-09.
 
 \end{thebibliography}
