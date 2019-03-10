@@ -223,9 +223,56 @@
 	\newpage\section{Design}
 	\newpage\subsection{Validate User}
 	\newpage\subsection{Retrieve Account Information}
+	\subsubsection{Use Case Scenario}
+		\textbf{Use Case Name:}	Retrieve info.
+		\newline\textbf{Goal:} to check account balance.
+		\newline\textbf{Actors:} customer, ATM, Bank 	
+		\newline\textbf{Precondition:} user is validated 	
+		\newline\textbf{Primary Scenario:}	
+			\begin{enumerate}[label*=\arabic*.]
+				\item ATM shows menu.
+				\item user chooses “ Balance Inquiry ”.
+				\item ATM prints receipt.
+				\item ATM go back to menu.
+				\item User quit.
+				\item ATM return the card to user.
+			\end{enumerate}
+		\textbf{Variant:}\newline	
+			\hspace*{5mm}*. user may cancel the session ;ATM return card.
+
+
+		\newpage\subsubsection{Use Case Diagram}
+			\begin{figure}[h!]
+			  \includegraphics[width=\linewidth]{img/inquiry_usecase.png}
+			\end{figure}
+
+		\newpage\subsubsection{Sequence Diagrams}
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/inquiry_sequence.png}
+		\end{figure}
+
+		\newpage\subsubsection{Collaboration Diagram}	
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/inquiry_collaboration.png}
+		\end{figure}
+
+		\newpage\subsubsection{Activity Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/inquiry_activity.png}
+			\end{center}
+		\end{figure}
+
+		\newpage\subsubsection{Flow Chart}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/inquiry_flowchart.png}
+			\end{center}
+		\end{figure}
+	
 	\newpage\subsection{Withdraw Money}
 	\newpage\subsection{Deposit Money}
-\subsubsection{Use Case Scenario}
+	\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	Deposit money into account.
 		\newline\textbf{Goal:} To deposit money (cash notes) into account.
 		\newline\textbf{Actors:} user, ATM, Bank 	
