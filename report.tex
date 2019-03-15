@@ -222,6 +222,54 @@
 
 	\newpage\section{Design}
 	\newpage\subsection{Validate User}
+	\subsubsection{Use Case Scenario}
+		\textbf{Use Case Name:}	validate user.
+		\newline\textbf{Goal:} to validate the client.
+		\newline\textbf{Actors:} customer, ATM, Bank. 	
+		\newline\textbf{Precondition:} the ATM is free. 	
+		\newline\textbf{Primary Scenario:}	
+			\begin{enumerate}[label*=\arabic*.]
+				\item the system starts to work.
+				\item the customer insert the card into the ATM 
+				\item ATM ask customer for the PIN code
+				\item the customer enters PIN code
+				\item the ATM authenticate PIN with the bank
+				\item the ATM gets customer's bank account from the bank
+			\end{enumerate}
+		\textbf{Variant:}\newline	
+			\hspace*{5mm}4a. the customer enter wrong PIN code.\newline
+			\hspace*{5mm}4b. the user enter the PIN code wrong more than 3 times.
+
+		\newpage\subsubsection{Use Case Diagram}
+			\begin{figure}[h!]
+			  \includegraphics[width=\linewidth]{img/validate_usecase.png}
+			\end{figure}
+
+		\newpage\subsubsection{Sequence Diagrams}
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/validate_sequence.png}
+		\end{figure}
+
+		\newpage\subsubsection{Collaboration Diagram}	
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/validate_collaboration.png}
+		\end{figure}
+
+		\newpage\subsubsection{Activity Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/validate_activity.png}
+			\end{center}
+		\end{figure}
+
+		\newpage\subsubsection{Flow Chart}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/validate_flowchart.png}
+			\end{center}
+		\end{figure}
+	
+	
 	\newpage\subsection{Retrieve Account Information}
 	\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	Retrieve info.
@@ -371,15 +419,30 @@
 			\end{center}
 		\end{figure}
 	\newpage\subsection{For The Whole System}
-	\subsubsection{Context Diagram}	
-	\subsubsection{Use-case Diagram}
-	\subsubsection{Component diagram}
-	\subsubsection{Deployment diagram}
-	\subsubsection{Data flow Diagram}		
-	\subsubsection{Class Diagram}
-	\subsubsection{Object Diagram}		
-	\subsubsection{State Chart Diagram}
-	\subsubsection{Architectural patterns}
+	\subsubsection{Context Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/context.png}
+			\end{center}
+		\end{figure}	
+	\newpage\subsubsection{Use-case Diagram}
+	\newpage\subsubsection{Component diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/component.png}
+			\end{center}
+		\end{figure}
+	\newpage\subsubsection{Deployment diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/deployment.png}
+			\end{center}
+		\end{figure}
+	\newpage\subsubsection{Data flow Diagram}		
+	\newpage\subsubsection{Class Diagram}
+	\newpage\subsubsection{Object Diagram}		
+	\newpage\subsubsection{State Chart Diagram}
+	\newpage\subsubsection{Architectural patterns}
 
 
 	\newpage
