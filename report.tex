@@ -221,11 +221,11 @@
 	\end{table}
 
 	\newpage\section{Design}
-	\newpage\subsection{Validate User}
+	\subsection{Validate User}
 	\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	validate user.
 		\newline\textbf{Goal:} to validate the client.
-		\newline\textbf{Actors:} customer, ATM, Bank. 	
+		\newline\textbf{Actors:} customer, Bank. 	
 		\newline\textbf{Precondition:} the ATM is free. 	
 		\newline\textbf{Primary Scenario:}	
 			\begin{enumerate}[label*=\arabic*.]
@@ -274,7 +274,7 @@
 	\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	Retrieve info.
 		\newline\textbf{Goal:} to check account balance.
-		\newline\textbf{Actors:} customer, ATM, Bank 	
+		\newline\textbf{Actors:} customer, Bank 	
 		\newline\textbf{Precondition:} user is validated 	
 		\newline\textbf{Primary Scenario:}	
 			\begin{enumerate}[label*=\arabic*.]
@@ -319,11 +319,60 @@
 		\end{figure}
 	
 	\newpage\subsection{Withdraw Money}
+	\subsubsection{Use Case Scenario}
+		\textbf{Use Case Name:} withdraw money.
+		\newline\textbf{Goal:} to get money.
+		\newline\textbf{Actors:} customer, Bank. 	
+		\newline\textbf{Precondition:} user is validated. 	
+		\newline\textbf{Primary Scenario:}	
+			\begin{enumerate}[label*=\arabic*.]
+				\item User insert  card  into ATM machine.
+				\item ATM machine request PIN from the user.
+				\item The user enter PIN code .
+				\item The ATM will verify PIN code entered with saving user account .
+				\item ATM machine request amount if PIN is valid .
+				\item The user enter the required amount .
+				\item Process the transaction in the client account .
+				\item ATM machine dispense cash if  the transaction successful .
+				\item The ATM ejects  the users card .
+			\end{enumerate}
+		\textbf{Variant:}\newline	
+			\hspace*{5mm}3a. Invalid PIN code entered. Indicate error message. Return step 3.\newline
+			\hspace*{5mm}6a. If the amount is unavailable int the user's account. Return step 6.
+
+		\newpage\subsubsection{Use Case Diagram}
+			\begin{figure}[h!]
+			  \includegraphics[width=\linewidth]{img/withdraw_usecase.png}
+			\end{figure}
+
+		\newpage\subsubsection{Sequence Diagrams}
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/withdraw_sequence.png}
+		\end{figure}
+
+		\newpage\subsubsection{Collaboration Diagram}	
+		\begin{figure}[h!]
+		  \includegraphics[width=\linewidth]{img/withdraw_collaboration.png}
+		\end{figure}
+
+		\newpage\subsubsection{Activity Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/withdraw_activity.png}
+			\end{center}
+		\end{figure}
+
+		\newpage\subsubsection{Flow Chart}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[height=\linewidth]{img/withdraw_flowchart.png}
+			\end{center}
+		\end{figure}
 	\newpage\subsection{Deposit Money}
 	\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	Deposit money into account.
 		\newline\textbf{Goal:} To deposit money (cash notes) into account.
-		\newline\textbf{Actors:} user, ATM, Bank 	
+		\newline\textbf{Actors:} user, Bank 	
 		\newline\textbf{Precondition:} user is validated 	
 		\newline\textbf{Primary Scenario:}	
 			\begin{enumerate}[label*=\arabic*.]
@@ -373,7 +422,7 @@
 		\subsubsection{Use Case Scenario}
 		\textbf{Use Case Name:}	transfer money to another account.
 		\newline\textbf{Goal:} to transfer money.
-		\newline\textbf{Actors:} user, receiver, ATM, Bank 	
+		\newline\textbf{Actors:} user, receiver, Bank 	
 		\newline\textbf{Precondition:} user is validated 	
 		\newline\textbf{Primary Scenario:}	
 			\begin{enumerate}[label*=\arabic*.]
@@ -426,6 +475,11 @@
 			\end{center}
 		\end{figure}	
 	\newpage\subsubsection{Use-case Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/usecase.png}
+			\end{center}
+		\end{figure}
 	\newpage\subsubsection{Component diagram}
 		\begin{figure}[h!]
 			\begin{center}
@@ -438,11 +492,31 @@
 				\includegraphics[width=\linewidth]{img/deployment.png}
 			\end{center}
 		\end{figure}
-	\newpage\subsubsection{Data flow Diagram}		
+	\newpage\subsubsection{Data flow Diagram}	
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/dataflow.png}
+			\end{center}
+		\end{figure}	
 	\newpage\subsubsection{Class Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/class.png}
+			\end{center}
+		\end{figure}
 	\newpage\subsubsection{Object Diagram}		
-	\newpage\subsubsection{State Chart Diagram}
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/object.png}
+			\end{center}
+		\end{figure}
 	\newpage\subsubsection{Architectural patterns}
+		\paragraph{} The architecture pattern used is pipe and filter, since the system is mainly data processing and focus on updating the database.
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=\linewidth]{img/architecture.png}
+			\end{center}
+		\end{figure}
 
 
 	\newpage

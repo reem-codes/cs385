@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.30)  15 MAR 2019 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.30)  23 MAR 2019 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,133 +481,112 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [2] [3] [4] [5] [6] [7]
-
-LaTeX Warning: File `img/validate_usecase.png' not found on input line 245.
-
-
-! Package pdftex.def Error: File `img/validate_usecase.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 ...dth=\linewidth]{img/validate_usecase.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[8]
-
-LaTeX Warning: File `img/validate_sequence.png' not found on input line 250.
-
-
-! Package pdftex.def Error: File `img/validate_sequence.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 ...th=\linewidth]{img/validate_sequence.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9]
-
-LaTeX Warning: File `img/validate_collaboration.png' not found on input line 25
-5.
-
-
-! Package pdftex.def Error: File `img/validate_collaboration.png' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 ...inewidth]{img/validate_collaboration.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[10]
-
-LaTeX Warning: File `img/validate_activity.png' not found on input line 261.
-
-
-! Package pdftex.def Error: File `img/validate_activity.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 ...ht=\linewidth]{img/validate_activity.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11]
-
-LaTeX Warning: File `img/validate_flowchart.png' not found on input line 268.
-
-
-! Package pdftex.def Error: File `img/validate_flowchart.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.268 ...t=\linewidth]{img/validate_flowchart.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[12]
+ [2] [3] [4] [5] [6]
+<img/validate_usecase.png, id=166, 756.8275pt x 548.0475pt>
+File: img/validate_usecase.png Graphic file (type png)
+<use img/validate_usecase.png>
+Package pdftex.def Info: img/validate_usecase.png  used on input line 245.
+(pdftex.def)             Requested size: 430.00462pt x 311.38681pt.
+ [7 <./img/validate_usecase.png>]
+<img/validate_sequence.png, id=175, 673.51625pt x 403.5075pt>
+File: img/validate_sequence.png Graphic file (type png)
+<use img/validate_sequence.png>
+Package pdftex.def Info: img/validate_sequence.png  used on input line 250.
+(pdftex.def)             Requested size: 430.00462pt x 257.62206pt.
+ [8 <./img/validate_sequence.png>]
+<img/validate_collaboration.png, id=183, 713.66624pt x 506.89375pt>
+File: img/validate_collaboration.png Graphic file (type png)
+<use img/validate_collaboration.png>
+Package pdftex.def Info: img/validate_collaboration.png  used on input line 255
+.
+(pdftex.def)             Requested size: 430.00462pt x 305.4148pt.
+ [9 <./img/validate_collaboration.png>]
+<img/validate_activity.png, id=191, 492.84125pt x 505.89pt>
+File: img/validate_activity.png Graphic file (type png)
+<use img/validate_activity.png>
+Package pdftex.def Info: img/validate_activity.png  used on input line 261.
+(pdftex.def)             Requested size: 418.92455pt x 430.00462pt.
+ [10 <./img/validate_activity.png>]
+<img/validate_flowchart.png, id=199, 492.84125pt x 527.9725pt>
+File: img/validate_flowchart.png Graphic file (type png)
+<use img/validate_flowchart.png>
+Package pdftex.def Info: img/validate_flowchart.png  used on input line 268.
+(pdftex.def)             Requested size: 401.38757pt x 430.00462pt.
+ [11 <./img/validate_flowchart.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [13]
-<img/inquiry_usecase.png, id=212, 731.73375pt x 618.31pt>
+
+[12]
+<img/inquiry_usecase.png, id=219, 731.73375pt x 618.31pt>
 File: img/inquiry_usecase.png Graphic file (type png)
 <use img/inquiry_usecase.png>
 Package pdftex.def Info: img/inquiry_usecase.png  used on input line 294.
 (pdftex.def)             Requested size: 430.00462pt x 363.35623pt.
- [14 <./img/inquiry_usecase.png>]
-<img/inquiry_sequence.png, id=219, 867.24pt x 644.4075pt>
+ [13 <./img/inquiry_usecase.png>]
+<img/inquiry_sequence.png, id=226, 867.24pt x 644.4075pt>
 File: img/inquiry_sequence.png Graphic file (type png)
 <use img/inquiry_sequence.png>
 Package pdftex.def Info: img/inquiry_sequence.png  used on input line 299.
 (pdftex.def)             Requested size: 430.00462pt x 319.51859pt.
- [15 <./img/inquiry_sequence.png>]
-<img/inquiry_collaboration.png, id=226, 1075.01625pt x 673.51625pt>
+ [14 <./img/inquiry_sequence.png>]
+<img/inquiry_collaboration.png, id=233, 1075.01625pt x 673.51625pt>
 File: img/inquiry_collaboration.png Graphic file (type png)
 <use img/inquiry_collaboration.png>
 Package pdftex.def Info: img/inquiry_collaboration.png  used on input line 304.
 
 (pdftex.def)             Requested size: 430.00462pt x 269.40172pt.
 
-[16 <./img/inquiry_collaboration.png>]
-<img/inquiry_activity.png, id=233, 537.00626pt x 679.53876pt>
+[15 <./img/inquiry_collaboration.png>]
+<img/inquiry_activity.png, id=240, 537.00626pt x 679.53876pt>
 File: img/inquiry_activity.png Graphic file (type png)
 <use img/inquiry_activity.png>
 Package pdftex.def Info: img/inquiry_activity.png  used on input line 310.
 (pdftex.def)             Requested size: 339.80705pt x 430.00462pt.
- [17 <./img/inquiry_activity.png>]
-<img/inquiry_flowchart.png, id=241, 611.28375pt x 702.625pt>
+ [16 <./img/inquiry_activity.png>]
+<img/inquiry_flowchart.png, id=247, 611.28375pt x 702.625pt>
 File: img/inquiry_flowchart.png Graphic file (type png)
 <use img/inquiry_flowchart.png>
 Package pdftex.def Info: img/inquiry_flowchart.png  used on input line 317.
 (pdftex.def)             Requested size: 374.11377pt x 430.00462pt.
 
-[18 <./img/inquiry_flowchart.png>] [19]
+[17 <./img/inquiry_flowchart.png>] [18]
+<img/withdraw_usecase.png, id=269, 804.75656pt x 506.6428pt>
+File: img/withdraw_usecase.png Graphic file (type png)
+<use img/withdraw_usecase.png>
+Package pdftex.def Info: img/withdraw_usecase.png  used on input line 345.
+(pdftex.def)             Requested size: 430.00462pt x 270.71494pt.
+ [19 <./img/withdraw_usecase.png>]
+<img/withdraw_sequence.png, id=276, 418.06187pt x 341.275pt>
+File: img/withdraw_sequence.png Graphic file (type png)
+<use img/withdraw_sequence.png>
+Package pdftex.def Info: img/withdraw_sequence.png  used on input line 350.
+(pdftex.def)             Requested size: 430.00462pt x 351.0485pt.
+
+[20 <./img/withdraw_sequence.png>]
+<img/withdraw_collaboration.png, id=285, 418.06187pt x 349.80687pt>
+File: img/withdraw_collaboration.png Graphic file (type png)
+<use img/withdraw_collaboration.png>
+Package pdftex.def Info: img/withdraw_collaboration.png  used on input line 355
+.
+(pdftex.def)             Requested size: 430.00462pt x 359.8247pt.
+ [21 <./img/withdraw_collaboration.png>]
+<img/withdraw_activity.png, id=293, 344.78813pt x 643.6547pt>
+File: img/withdraw_activity.png Graphic file (type png)
+<use img/withdraw_activity.png>
+Package pdftex.def Info: img/withdraw_activity.png  used on input line 361.
+(pdftex.def)             Requested size: 230.34921pt x 430.00462pt.
+
+[22 <./img/withdraw_activity.png>]
+<img/withdraw_flowchart.png, id=300, 542.77782pt x 546.54187pt>
+File: img/withdraw_flowchart.png Graphic file (type png)
+<use img/withdraw_flowchart.png>
+Package pdftex.def Info: img/withdraw_flowchart.png  used on input line 368.
+(pdftex.def)             Requested size: 427.04225pt x 430.00462pt.
+ [23 <./img/withdraw_flowchart.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -617,97 +596,145 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [20]
-<img/deposit_usecase.png, id=266, 603.25375pt x 368.37625pt>
+ [24]
+<img/deposit_usecase.png, id=322, 603.25375pt x 368.37625pt>
 File: img/deposit_usecase.png Graphic file (type png)
 <use img/deposit_usecase.png>
-Package pdftex.def Info: img/deposit_usecase.png  used on input line 346.
+Package pdftex.def Info: img/deposit_usecase.png  used on input line 395.
 (pdftex.def)             Requested size: 430.00462pt x 262.57759pt.
- [21 <./img/deposit_usecase.png>]
-<img/deposit_sequence.png, id=276, 1680.2775pt x 1087.06125pt>
+
+[25 <./img/deposit_usecase.png>]
+<img/deposit_sequence.png, id=330, 1680.2775pt x 1087.06125pt>
 File: img/deposit_sequence.png Graphic file (type png)
 <use img/deposit_sequence.png>
-Package pdftex.def Info: img/deposit_sequence.png  used on input line 351.
+Package pdftex.def Info: img/deposit_sequence.png  used on input line 400.
 (pdftex.def)             Requested size: 430.00462pt x 278.18388pt.
-
-[22 <./img/deposit_sequence.png>]
-<img/deposit_collaboration.png, id=283, 545.03625pt x 365.365pt>
+ [26 <./img/deposit_sequence.png>]
+<img/deposit_collaboration.png, id=337, 545.03625pt x 365.365pt>
 File: img/deposit_collaboration.png Graphic file (type png)
 <use img/deposit_collaboration.png>
-Package pdftex.def Info: img/deposit_collaboration.png  used on input line 356.
+Package pdftex.def Info: img/deposit_collaboration.png  used on input line 405.
 
 (pdftex.def)             Requested size: 430.00462pt x 288.2505pt.
- [23 <./img/deposit_collaboration.png>]
-<img/deposit_activity.png, id=292, 876.27374pt x 1141.26375pt>
+ [27 <./img/deposit_collaboration.png>]
+<img/deposit_activity.png, id=345, 876.27374pt x 1141.26375pt>
 File: img/deposit_activity.png Graphic file (type png)
 <use img/deposit_activity.png>
-Package pdftex.def Info: img/deposit_activity.png  used on input line 362.
+Package pdftex.def Info: img/deposit_activity.png  used on input line 411.
 (pdftex.def)             Requested size: 330.15286pt x 430.00462pt.
-
-[24 <./img/deposit_activity.png>]
-<img/deposit_flowchart.png, id=299, 888.31876pt x 1147.28625pt>
+ [28 <./img/deposit_activity.png>]
+<img/deposit_flowchart.png, id=352, 888.31876pt x 1147.28625pt>
 File: img/deposit_flowchart.png Graphic file (type png)
 <use img/deposit_flowchart.png>
-Package pdftex.def Info: img/deposit_flowchart.png  used on input line 369.
+Package pdftex.def Info: img/deposit_flowchart.png  used on input line 418.
 (pdftex.def)             Requested size: 332.9425pt x 430.00462pt.
- [25 <./img/deposit_flowchart.png>] [26]
-<img/transfer_usecase.png, id=318, 846.16125pt x 545.03625pt>
+ [29 <./img/deposit_flowchart.png>] [30]
+<img/transfer_usecase.png, id=372, 846.16125pt x 545.03625pt>
 File: img/transfer_usecase.png Graphic file (type png)
 <use img/transfer_usecase.png>
-Package pdftex.def Info: img/transfer_usecase.png  used on input line 395.
+Package pdftex.def Info: img/transfer_usecase.png  used on input line 444.
 (pdftex.def)             Requested size: 430.00462pt x 276.97514pt.
-
-[27 <./img/transfer_usecase.png>]
-<img/transfer_sequence.png, id=326, 859.21pt x 647.41875pt>
+ [31 <./img/transfer_usecase.png>]
+<img/transfer_sequence.png, id=380, 859.21pt x 647.41875pt>
 File: img/transfer_sequence.png Graphic file (type png)
 <use img/transfer_sequence.png>
-Package pdftex.def Info: img/transfer_sequence.png  used on input line 400.
+Package pdftex.def Info: img/transfer_sequence.png  used on input line 449.
 (pdftex.def)             Requested size: 430.00462pt x 324.01482pt.
- [28 <./img/transfer_sequence.png>]
-<img/transfer_collaboration.png, id=334, 715.67375pt x 457.71pt>
+ [32 <./img/transfer_sequence.png>]
+<img/transfer_collaboration.png, id=388, 715.67375pt x 457.71pt>
 File: img/transfer_collaboration.png Graphic file (type png)
 <use img/transfer_collaboration.png>
-Package pdftex.def Info: img/transfer_collaboration.png  used on input line 405
+Package pdftex.def Info: img/transfer_collaboration.png  used on input line 454
 .
 (pdftex.def)             Requested size: 430.00462pt x 275.01225pt.
- [29 <./img/transfer_collaboration.png>]
-<img/transfer_activity.png, id=343, 444.66125pt x 665.48625pt>
+ [33 <./img/transfer_collaboration.png>]
+<img/transfer_activity.png, id=396, 444.66125pt x 665.48625pt>
 File: img/transfer_activity.png Graphic file (type png)
 <use img/transfer_activity.png>
-Package pdftex.def Info: img/transfer_activity.png  used on input line 411.
+Package pdftex.def Info: img/transfer_activity.png  used on input line 460.
 (pdftex.def)             Requested size: 287.32335pt x 430.00462pt.
- [30 <./img/transfer_activity.png>]
-<img/transfer_flowchart.png, id=351, 444.66125pt x 701.62125pt>
+ [34 <./img/transfer_activity.png>]
+<img/transfer_flowchart.png, id=404, 444.66125pt x 701.62125pt>
 File: img/transfer_flowchart.png Graphic file (type png)
 <use img/transfer_flowchart.png>
-Package pdftex.def Info: img/transfer_flowchart.png  used on input line 418.
+Package pdftex.def Info: img/transfer_flowchart.png  used on input line 467.
 (pdftex.def)             Requested size: 272.52531pt x 430.00462pt.
- [31 <./img/transfer_flowchart.png>]
-<img/context.png, id=359, 897.3525pt x 596.2275pt>
+ [35 <./img/transfer_flowchart.png>]
+<img/context.png, id=413, 897.3525pt x 596.2275pt>
 File: img/context.png Graphic file (type png)
 <use img/context.png>
-Package pdftex.def Info: img/context.png  used on input line 425.
+Package pdftex.def Info: img/context.png  used on input line 474.
 (pdftex.def)             Requested size: 430.00462pt x 285.70377pt.
- [32 <./img/context.png>] [33]
-<img/component.png, id=371, 988.69376pt x 530.98375pt>
+ [36 <./img/context.png>]
+<img/usecase.png, id=421, 836.3747pt x 536.0025pt>
+File: img/usecase.png Graphic file (type png)
+<use img/usecase.png>
+Package pdftex.def Info: img/usecase.png  used on input line 480.
+(pdftex.def)             Requested size: 430.00462pt x 275.58228pt.
+ [37 <./img/usecase.png>]
+<img/component.png, id=429, 988.69376pt x 530.98375pt>
 File: img/component.png Graphic file (type png)
 <use img/component.png>
-Package pdftex.def Info: img/component.png  used on input line 432.
+Package pdftex.def Info: img/component.png  used on input line 486.
 (pdftex.def)             Requested size: 430.00462pt x 230.93555pt.
- [34 <./img/component.png>]
-<img/deployment.png, id=378, 997.7275pt x 647.41875pt>
+ [38 <./img/component.png>]
+<img/deployment.png, id=436, 997.7275pt x 647.41875pt>
 File: img/deployment.png Graphic file (type png)
 <use img/deployment.png>
-Package pdftex.def Info: img/deployment.png  used on input line 438.
+Package pdftex.def Info: img/deployment.png  used on input line 492.
 (pdftex.def)             Requested size: 430.00462pt x 279.02675pt.
+ [39 <./img/deployment.png>]
+<img/dataflow.png, id=443, 773.89125pt x 414.79968pt>
+File: img/dataflow.png Graphic file (type png)
+<use img/dataflow.png>
+Package pdftex.def Info: img/dataflow.png  used on input line 498.
+(pdftex.def)             Requested size: 430.00462pt x 230.48238pt.
+ [40 <./img/dataflow.png>]
 
-[35 <./img/deployment.png>] [36] [37] [38] [39] [40] (./report.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
- [41]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
+LaTeX Warning: File `img/class.png' not found on input line 504.
 
-(./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
+
+! Package pdftex.def Error: File `img/class.png' not found: using draft setting
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.504 ...graphics[width=\linewidth]{img/class.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[41]
+
+LaTeX Warning: File `img/object.png' not found on input line 510.
+
+
+! Package pdftex.def Error: File `img/object.png' not found: using draft settin
+g.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 ...raphics[width=\linewidth]{img/object.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[42]
+<img/architecture.png, id=464, 765.86125pt x 484.81125pt>
+File: img/architecture.png Graphic file (type png)
+<use img/architecture.png>
+Package pdftex.def Info: img/architecture.png  used on input line 517.
+(pdftex.def)             Requested size: 430.00462pt x 272.21pt.
+ [43 <./img/architecture.png>] (./report.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+ [44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
 
 
  *File List*
@@ -804,11 +831,21 @@ epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
 epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
   apatch.sty    2006/07/02  3.11s last minute patches 
    Uxnsh.fd
+img/validate_usecase.png
+img/validate_sequence.png
+img/validate_collaboration.png
+img/validate_activity.png
+img/validate_flowchart.png
 img/inquiry_usecase.png
 img/inquiry_sequence.png
 img/inquiry_collaboration.png
 img/inquiry_activity.png
 img/inquiry_flowchart.png
+img/withdraw_usecase.png
+img/withdraw_sequence.png
+img/withdraw_collaboration.png
+img/withdraw_activity.png
+img/withdraw_flowchart.png
 img/deposit_usecase.png
 img/deposit_sequence.png
 img/deposit_collaboration.png
@@ -820,21 +857,24 @@ img/transfer_collaboration.png
 img/transfer_activity.png
 img/transfer_flowchart.png
 img/context.png
+img/usecase.png
 img/component.png
 img/deployment.png
+img/dataflow.png
+img/architecture.png
   report.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: FF05DEF4802404E12875EFFDEE45FD20;1210.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
+(rerunfilecheck)             Checksum: CFDCB13935081CE78DA034CB8E0163B5;1208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 528.
  ) 
 Here is how much of TeX's memory you used:
- 10987 strings out of 494914
- 155033 string characters out of 6180441
+ 11090 strings out of 494914
+ 157373 string characters out of 6180441
  384183 words of memory out of 5000000
- 13956 multiletter control sequences out of 15000+600000
+ 14021 multiletter control sequences out of 15000+600000
  9212 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,11n,40p,747b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -846,10 +886,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/arabtex/xnsh14.pfb>
-Output written on report.pdf (43 pages, 738863 bytes).
+Output written on report.pdf (46 pages, 1193007 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 162 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
